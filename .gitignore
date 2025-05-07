@@ -1,0 +1,22 @@
+# Ignore your virtual environment
+data_viz_venv/
+
+# Ignore Jupyter checkpoints (auto-saved backups)
+.ipynb_checkpoints/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore large or private data files
+data/
+!data/.gitkeep
+
+# Ignore model output or temp files (optional)
+*.h5
+*.pkl
+*.joblib
+*.csv
+
+# Ignore draft notebook
+airbnb_data_viz.ipynb
