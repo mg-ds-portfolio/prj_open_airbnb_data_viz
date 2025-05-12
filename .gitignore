@@ -12,6 +12,8 @@ __pycache__/
 data/
 !data/.gitkeep
 
+# Ignore VS Code settings
+.vscode/
 # Ignore model output or temp files (optional)
 *.h5
 *.pkl
